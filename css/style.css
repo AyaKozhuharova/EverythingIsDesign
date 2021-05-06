@@ -15,10 +15,6 @@ html {
 font-size: 100%;
 }
 
-
-/* Typography
-------------------------------------- */
-
 h1,h2,h3,h4 {
 font-weight: 400;
 letter-spacing: 0.3rem;
@@ -77,9 +73,6 @@ width: 100%;
 max-width: 100%;
 }
 
-
-/* preloader styles
-/* ========================================== */
 .preloader {
   position: fixed;
   top: 0;
@@ -120,10 +113,6 @@ border-radius: 100%;
           transform: scale(1);
   opacity: 0; } }
 
-
-
-/* navigation styles
-/* ========================================== */
 .nav-container,
 nav {
 overflow: visible;
@@ -381,8 +370,6 @@ color: #fff;
 cursor: pointer;
 }
 
-/* header section styles
-/* ========================================== */
 #header {
 -webkit-background-size: cover;
 background-size: cover;
@@ -415,26 +402,24 @@ padding-top: 120px !important;
 }
 
 .header-one {
-background: url('../images/background.jpg') no-repeat;
+background: url('https://res.cloudinary.com/everything-is-design/image/upload/v1614668372/header-background_mdsybg.jpg') no-repeat;
 height: 60vh !important;
 min-height: 520px;
 padding-top: 150px !important;
 }
 .header-two {
-background: url('../images/background.jpg') no-repeat;
+background: url('https://res.cloudinary.com/everything-is-design/image/upload/v1614668372/header-background_mdsybg.jpg') no-repeat;
 }
 .header-three {
-background: url('../images/background.jpg') no-repeat;
+background: url('https://res.cloudinary.com/everything-is-design/image/upload/v1614668372/header-background_mdsybg.jpg') no-repeat;
 }
 .header-four {
-background: url('../images/background.jpg') no-repeat;
+background: url('https://res.cloudinary.com/everything-is-design/image/upload/v1614668372/header-background_mdsybg.jpg') no-repeat;
 }
 .header-five {
-background: url('../images/background.jpg') no-repeat;
+background: url('https://res.cloudinary.com/everything-is-design/image/upload/v1614668372/header-background_mdsybg.jpg') no-repeat;
 }
 
-/* Portfolio section styles
-/* ========================================== */
 #portfolio {
 text-align: center;
 padding-top: 3rem;
@@ -488,7 +473,6 @@ opacity: 0.9;
   margin-bottom: 4px;
 }
 
-/*filter css*/
 .filter-wrapper {
   width: 100%;
   margin-bottom: 32px;
@@ -522,7 +506,6 @@ background: #111112;
 color: #ffffff;
 }
 
-/*isotope box css*/
 .iso-box-section {
   width: 100%;
 }
@@ -554,8 +537,6 @@ color: #ffffff;
   display: block;
 }
 
-/* single project section styles
-/* ========================================== */
 #single-project {
 padding-top: 4rem;
 padding-bottom: 6rem;
@@ -569,8 +550,6 @@ padding-bottom: 10px;
 padding-top: 14px;
 }
 
-/* about section styles
-/* ========================================== */
 #about {
 padding-top: 5rem;
 padding-bottom: 8rem;
@@ -590,8 +569,6 @@ letter-spacing: 2px;
 margin-top: 20px;
 }
 
-/* blog & single post section styles
-/* ========================================== */
 #blog, 
 #single-post {
 padding-top: 4rem;
@@ -679,16 +656,30 @@ height: 50px;
 }
 
 
-/* contact section styles
-/* ========================================== */
 #contact {
+
 padding-top: 5rem;
 padding-bottom: 0rem;
+}
+
+#contact-center{
+  display: flex;
+  justify-content: center;
 }
 
 #contact .fa {
 font-size: 32px;
 padding-right: 10px;
+}
+
+#contact .far {
+  font-size: 32px;
+  padding-right: 10px;
+}
+
+#contact .fab {
+  font-size: 32px;
+  padding-right: 10px;
 }
 
 #contact #map-canvas  {
@@ -747,8 +738,6 @@ bottom: -50px;
 
 
 
-/* footer section styles
-/* ========================================== */
 footer {
 background: #141414;
 padding-top: 120px;
@@ -757,7 +746,6 @@ text-align: center;
 }
 
 
-/* social icon */
 .social-icon {
 padding: 0;
 margin: 0;
@@ -789,8 +777,7 @@ top: 0px;
 background: #ffffff;
 }
 
-/* Responsive Mobile styles
-/* ========================================== */
+
 @media (max-width: 980px) {
 
 .intro-inner {top: 30%;}
