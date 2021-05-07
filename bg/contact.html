@@ -21,13 +21,15 @@
 		integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
-	<link rel="shortcut icon" href="https://res.cloudinary.com/everything-is-design/image/upload/v1614631952/portfolio_logo_-_tab_yoz6yx.png">
+	<link rel="shortcut icon"
+		href="https://res.cloudinary.com/everything-is-design/image/upload/v1614631952/portfolio_logo_-_tab_yoz6yx.png">
 	<link rel="shortcut icon"
 		href="https://res.cloudinary.com/everything-is-design/image/upload/v1614631952/portfolio_logo_-_tab_yoz6yx.png">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
 		integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
 		crossorigin="anonymous" />
+	<link href="../css/languageSwitcher.css" rel="stylesheet">
 
 </head>
 
@@ -64,6 +66,17 @@
 										<li>
 											<a href="contact.html">Контакти</a>
 										</li>
+
+										<li>
+											<label class="switch">
+												<input onclick="location.href = '../en/contact.html';" type="checkbox"
+													id="togBtn">
+												<div class="slider round">
+													<span class="bg">БГ</span>
+													<span class="en">EN</span>
+												</div>
+											</label>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -97,7 +110,8 @@
 							<form id="contact-form" method="post" action="contact_process.php">
 								<input name="name" type="text" class="form-control" placeholder="Име" required>
 								<input name="email" type="email" class="form-control" placeholder="E-mail" required>
-								<textarea name="message" class="form-control" placeholder="Съобщение" rows="4" required></textarea>
+								<textarea name="message" class="form-control" placeholder="Съобщение" rows="4"
+									required></textarea>
 								<div class="contact-submit">
 									<input type="submit" class="form-control submit" value="Изпрати">
 								</div>
